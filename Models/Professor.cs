@@ -12,7 +12,7 @@ namespace College.Models
 
         public Professor() { }
 
-        public Professor(int id, string address, DateOnly doB, double sal):base(id, address, doB)
+        public Professor(int id, string address, DateOnly dOB, double sal):base(id, address, dOB)
         {
             Salary = sal;               
         }

@@ -12,7 +12,7 @@ namespace College.Models
 
         public Student() { }
 
-        public Student(int id, string address, DateOnly doB, string branch):base(id, address, doB)
+        public Student(int id, string address, DateOnly dOB, string branch):base(id, address, dOB)
         {
             Branch = branch;       
         }
